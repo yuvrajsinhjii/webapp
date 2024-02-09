@@ -56,3 +56,22 @@
 </body>
 
 </html>
+
+<?php
+// error_reporting(0);
+// $conn = mysqli_connect('localhost', 'root', '', 'svit');
+
+// if (isset($_POST['clue'])) {
+//     $clue = $_POST['clue'];
+//     $sql = "INSERT INTO game(clue) VALUES('$clue')";
+//     if ($conn->query($sql) === TRUE) {
+//         echo "Your Clue is" . $clue;
+//         // echo '<script>alert("nikal loude")</script>'; 
+//         // header("location:index.php");
+// }
+//     } else {
+//         echo " " . $sql . "<br>" . $conn->error;
+//     }
+    
+// $conn->close();
+?>
